@@ -116,6 +116,7 @@ public class Hangman{
 
             vida = 5;
             fim = 1;
+            acertos = new char[]{'_','_','_','_','_','_'};
             resposta = menu();
 
         }while(resposta == 'S' || resposta == 's');
